@@ -17,7 +17,6 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/departments")
 @Slf4j
 public class DepartmentController {
-	// Test commented entered now
 	@Autowired
 	private DepartmentService departmentService;
 	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DepartmentService.class);
