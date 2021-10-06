@@ -24,7 +24,6 @@ public class DepartmentController {
 	@PostMapping("/")
 	public Department saveDepartment (@RequestBody Department department)
 	{
-	    // Adding test comment
 		log.info("DepartmentController.saveDepartment");
 		return departmentService.saveDepartment(department);
 	}
