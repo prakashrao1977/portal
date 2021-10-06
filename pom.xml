@@ -11,6 +11,7 @@
 	<groupId>com.microservices</groupId>
 	<artifactId>departmentservice</artifactId>
 	<version>1.0.0</version>
+	<packaging>pom</packaging>
 	<name>departmentservice</name>
 	<description>department-service</description>
 	<properties>
@@ -77,4 +78,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>rest</module>
+	</modules>
 </project>
