@@ -43,7 +43,7 @@ const App = () => {
   };
 
   const columns = [
-    { dataField: "serviceName", text: "Service Name", sort: true, filter: textFilter(), formatter: (cell, row) => {
+    { dataField: "serviceName", text: "Service New Name", sort: true, filter: textFilter(), formatter: (cell, row) => {
       return (
         <Router>
         <Link to='/Service'>
@@ -64,8 +64,8 @@ const App = () => {
   useEffect(() => {
     getPlayerData();
   }, []);
-  
-  return ( 
+
+  return (
     <div className="App">
       {loading ? (
       <ToolkitProvider
@@ -88,7 +88,7 @@ const App = () => {
             </React.Fragment>
           )
         }
-        </ToolkitProvider> 
+        </ToolkitProvider>
       ) : (
         <ReactBootStrap.Spinner animation="border" />
       ) }
