@@ -43,7 +43,7 @@ const App = () => {
   };
 
   const columns = [
-    { dataField: "serviceName", text: "Service Name4", sort: true, filter: textFilter(), formatter: (cell, row) => {
+    { dataField: "serviceName", text: "Service Name5", sort: true, filter: textFilter(), formatter: (cell, row) => {
       return (
         <Router>
         <Link to='/Service'>
